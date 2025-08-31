@@ -11,7 +11,7 @@ Implemented a **Retrieval-Augmented Generation (RAG)** system for document searc
 Relationships are stored in a database (**graph, vector, relational**), enabling context-aware answers beyond keyword matching.  
 The system processes external articles from URLs, indexes them in a vector database, and answers user queries via **IBM WatsonX AI LLM**, referencing both document chunks and extracted relationships.  
 
-**Tools:** IBM watsonx.ai RAG, trafilatura, sentence_transformers, Milvus, Neo4j, Postgres, Db2  
+**Tools:** IBM watsonx.ai RAG, IBM Watson Discovery, trafilatura, sentence_transformers, Milvus, Neo4j, PostgreSQL, IBM Db2  
 
 ---
 
@@ -19,7 +19,7 @@ The system processes external articles from URLs, indexes them in a vector datab
 Built an **Agentic AI** in **IBM WatsonX Agent Lab** to automate medical certificate validation and leave requests.  
 The agent extracts patient details and rest days, checks leave balances, provides recommendations for managers, and updates the database automatically.  
 
-**Tools:** IBM watsonx.ai Agent Lab, LangChain, LangGraph, MemorySaver, requests, Postgres  
+**Tools:** IBM watsonx.ai Agent Lab, LangChain, LangGraph, MemorySaver, requests, PostgreSQL  
 
 ---
 
@@ -27,4 +27,4 @@ The agent extracts patient details and rest days, checks leave balances, provide
 Developed an AI application converting natural language queries into optimized SQL using **IBM WatsonX LLM (granite-20b-code-base-sql-gen)** and translating results into human-readable responses.  
 This enables business users to query databases without SQL knowledge, improving accessibility and speeding decision-making.  
 
-**Tools:** IBM watsonx.ai ModelInference, Pandas, Db2  
+**Tools:** IBM watsonx.ai ModelInference, Pandas, IBM Db2  
